@@ -1,0 +1,422 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif
+}
+h1, h2, h3, h4{
+font-family: Georgia, 'Times New Roman', Times, serif;
+}
+body{
+    margin: 0 auto;
+    width: 1280px;
+}
+.content{
+    margin: 0 auto;
+    width: 1021px;
+}
+.verhzag{
+    display: flex;
+    gap: 210px;
+    margin-bottom: 50px;
+    padding: 15px;
+    padding-top: 70px;
+    justify-content: space-between;
+}
+
+.verhzag button{
+    background: none;
+    width: 175px;
+    border: 2px solid #a38b70;
+    color: #a38b70;
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-size: 18px;
+    margin-right: 0;
+}
+header{
+    background: url(img/header.png);
+    background-size: cover;
+    height: 525px;
+}
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 45px;
+}
+.logo{
+    background: url(img/logo.png);
+    background-size: cover;
+    width: 205px;
+    height: 55px;
+    margin-top: -11px;
+    margin-left: 30px;
+}
+header nav ul{
+    display: flex;
+    align-items: center;
+    gap: 60px;
+}
+h1{
+    font-size: 46px;
+    color: white;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    text-align: center;
+    margin-top: -73px;
+}
+h2{
+    font-size: 40px;
+    color: #a38b70;
+}
+ nav ul li{
+    text-decoration: none;
+    color: white;
+    list-style-type: none;
+    font-size: 18px;
+    
+}
+nav ul{
+    margin-left: -85px;
+    margin-top: 10px;
+}
+.navbar button{
+    background: none;
+    border: 2px solid white;
+    color: white;
+    border-radius: 5px;
+    width: 166px;
+    font-size: 24px;
+}
+
+.features{
+    display: flex;
+    text-align: center;
+    gap: 100px;
+    margin-top: 50px;
+    margin-bottom: 47px;
+}
+h3{
+    color: #a38b70;
+    font-size: 30px;
+}
+.features p{
+    font-size: 16px;
+    margin-top: 30px;
+    color: #404040;
+}
+.vybor{
+    background: url(img/icon1.png) no-repeat;
+    background-size: contain;
+    width: 60px;
+    height: 55px;
+}
+.kachestvo{
+    background: url(img/Layer\ 25.png) no-repeat;
+    background-size: contain;
+    width: 60px;
+    height: 55px;
+}
+.bezopasnost{
+    background: url(img/Layer\ 26.png) no-repeat;
+    background-size: contain;
+    width: 60px;
+    height: 55px;
+}
+.vybor, .kachestvo, .bezopasnost{
+    margin-left: 100px;
+    margin-bottom: 40px;
+}
+.reference{
+    background: #f2f2f2;
+    height: 500px;
+    padding-bottom: 119px;
+}
+.reference button{
+    margin-left: 150px;
+}
+.verhzag button{
+    margin-left: 150px;
+}
+h4{
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+h4 span{
+    color: #666666;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: lighter;
+}
+.photo1{
+    background: url(img/Layer\ 7.png);
+    background-size: cover;
+    width: 195px;
+    height: 100px;
+    border-radius: 5px;
+}
+.photo2{
+    background: url(img/Layer\ 21.png);
+    background-size: cover;
+    width: 195px;
+    height: 100px;
+    border-radius: 5px;
+}
+.cat , .cat1{
+    display: flex;
+    gap: 25px;
+}
+.okrcat{
+    margin-bottom: 45px;
+}
+.otz{
+    display: flex;
+    gap: 105px;
+    margin-bottom: 50px;
+}
+.otz1 p{
+    font-size: 16px;
+    color: #404040;
+    margin-bottom: 30px;
+}
+.otz1 span{
+    font-style: italic;
+    font-size: 16px;
+    font-weight: bold;
+}
+.popul{
+    background: #f2f2f2;
+    height: 900px;
+    padding-bottom: 150px;
+}
+.popular{
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    margin-bottom: 25px;
+}
+.kotvoch1{
+    background: url(img/Layer\ 19.png);
+    background-size: cover;
+    width: 306px;
+    height: 206px;
+}
+.kotvoch2{
+    background: url(img/Layer\ 20.png);
+    background-size: cover;
+    width: 306px;
+    height: 206px;
+}
+.kotvoch3{
+    background: url(img/Layer\ 18.png);
+    background-size: cover;
+    width: 306px;
+    height: 206px;
+}
+.text{
+    display: flex;
+    gap: 15px;
+    font-size: 16px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    margin-top: 20px;
+    justify-content: space-around;
+}
+
+.but button{
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white;
+    background: #a38b70;
+    width: 126px;
+    padding: 15px;
+    margin-left: 15px;
+    border-radius: 10px;
+    border: 0;
+}
+.ochki1 , .ochki2 , .ochki3{
+    border: 1px solid #d9d9d9;
+    padding-bottom: 20px;
+}
+table{
+    width: 100%;
+    margin-top: 65px;
+    border-collapse: collapse;
+    line-height: inherit;
+}
+table tr th{
+    font-size: 14px;
+    color: #404040;
+    font-weight: normal;
+    text-transform: uppercase;
+}
+table tr td{
+    border: 2px solid #d9d9d9;
+    padding: 20px;
+    font-size: 18px;
+    color: #404040;
+}
+.name{
+    font-weight: bold;
+}
+.feedback{
+    padding-bottom: 70px;
+    padding-top: 70px;
+}
+.verhzag p{
+    color: #404040;
+}
+.forma{
+    width: 630px;
+}
+.forma p{
+    color: #404040;
+    font-size: 12px
+}
+.ankverh{
+    border-bottom: 1px solid #d5d5d5;
+    padding-bottom: 30px;
+    margin-bottom: 40px;
+}
+.patr1 label{
+    font-size: 18px;
+    color: #404040;
+}.ankverh #name{
+    width: 605px;
+    padding: 10px;
+    font-size: 18px;
+    margin-bottom: 25px;
+}
+.svi{
+    display: flex;
+    gap: 50px;
+    margin-bottom: 35px;
+}
+.svi input{
+    width: 265px;
+    padding: 10px;
+    font-size: 18px;
+}
+.ankverh2 input{
+    width: 605px;
+    padding: 10px;
+    font-size: 18px;
+}
+.ankverh2 .theme{
+    margin-bottom: 30px;
+}
+.ankverh2 .textobr{
+    margin-bottom: 55px;
+    padding-bottom: 70px;
+}
+.checkbox{
+    height: 20px;
+    width: 20px;
+    border-radius: 0;
+}
+.ankverh2 button{
+    text-transform: uppercase;
+    color: white;
+    background: #a38b70;
+    width: 126px;
+    padding: 15px;
+    margin-left: 15px;
+    border: 0;
+    border-radius: 10px;
+    font-size: 16px;
+}
+.ankverh2 .check{
+    width: 30px;
+    height: 30px;
+}
+.image{
+    background: url(img/image.png);
+    background-size: cover;
+    width: 356px;
+    height: 535px;
+}
+.voprosiki{
+    display: flex;
+    gap: 53px;
+}
+footer{
+    background: #363636;
+    height: 500px;
+}
+.logobut{
+    display: flex;
+    gap: 570px;
+    margin-bottom: 70px;
+    padding-top: 70px;
+}
+.logobut button{
+    background: none;
+    border: 2px solid white;
+    color: white;
+    border-radius: 5px;
+    width: 166px;
+    font-size: 24px;
+}
+.menu{
+    display: flex;
+    gap: 55px;
+    border-bottom: 1px solid #ffffff;
+    padding-bottom: 71px;
+}
+.menu  h4{
+    font-size: 24px;
+    color: #a38b70;
+    padding-bottom: 29px;
+}
+.menu  p{
+    color: #c3c3c3;
+    font-size: 16px;
+    padding-bottom: 28px;
+}
+.end{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: -15px;
+}
+.end .befr{
+    display: flex;
+    gap: 35px;
+}
+.befr h4{
+    font-size: 24px;
+    color: #a38b70;
+    font-weight: bold;
+}
+.vk{
+    background: url(img/В\ copy\ 2.png);
+    width: 18px;
+    height: 22px;
+}
+.fb{
+    background: url(img/facebook.png);
+    width: 13px;
+    height: 22px;
+}
+.inst{
+    background: url(img/Vector\ Smart\ Object\ copy\ 5.png);
+    width: 20px;
+    height: 23px;
+}
+.befr .set{
+    border: 1px solid white;
+    padding: 15px;
+    margin-right: 12px;
+}
+.lov{
+    background: url(img/Vector\ Smart\ Object.png);
+    width: 20px;
+    height: 23px;
+}
+.forhtml{
+    display: flex;
+}
+.forhtml p{
+    font-size: 18px;
+    color: white;
+    font-weight: bold;
+}
